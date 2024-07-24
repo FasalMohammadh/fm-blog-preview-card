@@ -16,19 +16,19 @@ function BlogPreviewCardPage() {
           height={200}
         />
         <div className="space-y-3">
-          <span className="font-extrabold text-gray-950 text-sm leading-normal bg-yellow py-1 px-3 rounded md:text-sm">
+          <span className="inline-block font-extrabold text-gray-950 text-sm leading-normal bg-yellow py-1 px-3 rounded md:text-sm md:leading-normal">
             Learning
           </span>
-          <p className="text-xs leading-normal font-medium md:text-sm">
+          <p className="text-xs leading-normal font-medium md:text-sm md:leading-normal">
             Published 21 Dec 2023
           </p>
           <Link
             href="#"
-            className="text-gray-950 font-extrabold leading-normal text-xl hover:text-yellow"
+            className="text-gray-950 font-extrabold leading-normal text-xl block md:text-2xl md:leading-normal hover:text-yellow "
           >
             HTML & CSS foundations
           </Link>
-          <p className="text-gray-500 font-medium leading-normal text-sm md:text-base">
+          <p className="text-gray-500 font-medium leading-normal text-sm md:text-base md:leading-normal">
             These languages are the backbone of every website, defining
             structure, content, and presentation.
           </p>

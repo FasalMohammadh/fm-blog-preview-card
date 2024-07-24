@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 import ArticleIllustration from "@/assets/images/article-illustration.svg";
 import AvatarImage from "@/assets/images/avatar-image.webp";
@@ -21,9 +22,12 @@ function BlogPreviewCardPage() {
           <p className="text-xs leading-normal font-medium md:text-sm">
             Published 21 Dec 2023
           </p>
-          <p className="text-gray-950 font-extrabold leading-normal text-xl">
+          <Link
+            href="#"
+            className="text-gray-950 font-extrabold leading-normal text-xl hover:text-yellow"
+          >
             HTML & CSS foundations
-          </p>
+          </Link>
           <p className="text-gray-500 font-medium leading-normal text-sm md:text-base">
             These languages are the backbone of every website, defining
             structure, content, and presentation.

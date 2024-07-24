@@ -8,13 +8,17 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      colors: {
+        yellow: "hsl(var(--yellow))",
+        "gray-500": "hsl(var(--gray-500))",
+        "gray-950": "hsl(var(--gray-950))",
+        white: "hsl(var(--white))",
+      },
+      fontFamily: {
+        figtree: ["var(--font-figtree)"],
       },
     },
   },
-  plugins: [],
 };
+
 export default config;
